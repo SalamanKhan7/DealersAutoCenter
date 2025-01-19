@@ -1,0 +1,25 @@
+{
+  "short_name": "Auto Center",
+  "name": "DealersAutoCenter",
+  "icons": [
+    {
+      "src": "https://www.shutterstock.com/image-vector/flat-car-logo-collection-gradient-600nw-2479170257.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://www.shutterstock.com/image-vector/flat-car-logo-collection-gradient-600nw-2479170257.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.shutterstock.com/image-vector/flat-car-logo-collection-gradient-600nw-2479170257.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
