@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logoutIcon {
+  cursor: pointer;
+  font-size: 2rem;
+}
+@media (max-width: 650px) {
+  .SearchInventory {
+    display: none;
+  }
+  .header {
+    border-radius: 0 0 30px 30px;
+  }
+}

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f0f0f0;
+  /* height: 100vh; */
+}
+
+/* @media (max-width: 650px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+} */
+.SearchInventory {
+  display: none;
+}
+@media (max-width: 650px) {
+  .SearchInventory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 0 0;
+    background-color: #fff;
+    padding: 20px;
+  }
+  .container {
+    background-color: blue;
+  }
+}
