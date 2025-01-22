@@ -34,3 +34,12 @@
     background-color: blue;
   }
 }
+.containerBody {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 650px) {
+  .containerBody {
+    flex-direction: column-reverse;
+  }
+}

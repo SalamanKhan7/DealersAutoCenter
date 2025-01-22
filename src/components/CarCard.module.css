@@ -21,32 +21,77 @@
   padding: 0 10px;
 }
 
-.miles,
 .price {
   font-size: 1rem;
   margin: 5px 0;
+}
+.priceBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.miles {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 0.8rem;
+  margin: 5px 0;
   padding: 0 10px;
+  color: orangered;
 }
 .carColor {
-  
   display: flex;
   justify-content: right;
   align-items: center;
+  /* padding-right: 5px; */
 }
 .finalColor {
   width: 30%;
+}
+.intColor {
+  color: #000;
+  font-size: 15px;
+}
+.extColor {
+  color: #1d82d5;
+  font-size: 15px;
+}
+@media (max-width: 650px) {
+  .title,
+  .miles {
+    font-size: 0.5rem;
+  }
+  .price {
+    font-size: 0.7rem;
+  }
+  .carColor {
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .finalColor {
+    width: 40%;
+  }
+  .availabilityButton {
+    margin: 5px;
+    padding: 5px;
+    font-size: 8px;
+  }
+  .card {
+    width: 96%;
+  }
 }
 .titleMiles {
   width: 70%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
 }
 .availabilityButton {
   display: block;
-  margin: 10px auto;
-  padding: 10px 20px;
+  margin: 10px 10px;
+  padding: 10px 10px;
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -58,6 +103,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+.priceSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10px;
+  font-weight: 550;
+}
+.monthPrice {
+  font-size: 12px;
 }
 .heartButton {
   position: absolute;

@@ -1,0 +1,144 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #007bff; 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  background-color: #fff;
+  width: 80%;
+  max-width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formSection {
+  flex: 2;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonGroup button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonGroup .activeButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.creditScoreGroup {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 12px;
+}
+
+.creditScoreGroup div {
+  flex: 1;
+  padding: 10px;
+}
+
+.creditScoreGroup .activeCredit {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.circleSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-radius: 0 10px 10px 0;
+}
+
+.circle {
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.amount {
+  text-align: center;
+  font-size: 24px;
+}
+
+.amount span {
+  font-size: 14px;
+  color: #555;
+}
+
+.applyButton {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.applyButton:hover {
+  background-color: #c9302c;
+}
+
+.preApproved {
+  color: #333;
+  font-size: 14px;
+} */

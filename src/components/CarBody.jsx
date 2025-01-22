@@ -1,83 +1,95 @@
 import React, { useState } from "react";
 import CarCard from "./CarCard";
-import styles from "./CarSection.module.css";
+import styles from "./CarBody.module.css";
 const cars = [
   {
     image: "/carImage.jpeg",
     model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
     price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
+  },
+
+  {
+    image: "/carImage.jpeg",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
+    miles: "125,452",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
   {
     image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
+    model: "2015 Mercedes Sprinter Passenger Extended 170 WB",
     miles: "125,452",
-    price: "$7,000",
-  },
-  {
-    image: "/carImage.jpeg",
-    model: "2015 Toyota Corolla",
-    miles: "125,452",
-    price: "$7,000",
+    price: "7,000",
+    monthPrice: "250",
   },
 ];
-const CarSection = () => {
+const CarBody = () => {
   const [visibleCount, setVisibleCount] = useState(8);
-
   const handleViewMore = () => {
     setVisibleCount((prev) => prev + 4);
   };
@@ -91,11 +103,11 @@ const CarSection = () => {
       </div>
       {visibleCount < cars.length && (
         <button onClick={handleViewMore} className={styles.viewMoreButton}>
-          View More
+          See More
         </button>
       )}
     </div>
   );
 };
 
-export default CarSection;
+export default CarBody;

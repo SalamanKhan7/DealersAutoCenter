@@ -4,7 +4,9 @@ import HeaderMain from "./components/HeaderMain";
 import CarsSection from "./components/CarsSection";
 import SearchInventory from "./components/SearchInventory";
 import BodyClass from "./components/BodyClass";
-import CarSection from "./components/CarSection";
+import CarBody from "./components/CarBody";
+import ServiceClass from "./components/ServiceClass";
+import AutoLoanCalculator from "./components/AutoLoanCalculator";
 
 const App = () => {
   return (
@@ -17,7 +19,11 @@ const App = () => {
         </div>
       </div>
       <BodyClass />
-      <CarSection />
+      <div className={styles.containerBody}>
+        <CarBody />
+        <ServiceClass />
+      </div>
+      {/* <AutoLoanCalculator /> */}
     </div>
   );
 };
