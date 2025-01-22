@@ -58,6 +58,9 @@ h1 {
   .container {
     display: none;
   }
+  .image {
+    margin-bottom: 20px;
+  }
 }
 
 /* Mobile */
@@ -74,7 +77,7 @@ h1 {
   margin-bottom: 10px;
 }
 .title {
-  margin-left: 20px;
+  margin-left: 0px;
   font-size: 24px;
 }
 .viewAll {
@@ -114,8 +117,8 @@ h1 {
 }
 
 .carIcon {
-  height: 30px;
-  margin-bottom: 10px;
+  height: 35px;
+  margin-bottom: 20px;
   background: #fff;
 }
 

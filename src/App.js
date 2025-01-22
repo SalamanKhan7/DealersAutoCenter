@@ -7,6 +7,10 @@ import BodyClass from "./components/BodyClass";
 import CarBody from "./components/CarBody";
 import ServiceClass from "./components/ServiceClass";
 import AutoLoanCalculator from "./components/AutoLoanCalculator";
+import SellYourCar from "./components/SellYourCar";
+import BuyCar from "./components/BuyCar";
+import NextCar from "./components/NextCar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -23,7 +27,14 @@ const App = () => {
         <CarBody />
         <ServiceClass />
       </div>
-      {/* <AutoLoanCalculator /> */}
+      <AutoLoanCalculator />
+      <SellYourCar />
+      <div className={styles.containerBuy}>
+        <CarBody />
+        <NextCar />
+        <BuyCar />
+      </div>
+      <Footer />
     </div>
   );
 };

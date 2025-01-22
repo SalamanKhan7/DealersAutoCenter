@@ -2,7 +2,18 @@
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(4, 1fr);
-  padding: 10px;
+  padding: 0px 10px;
+  margin: 0px auto;
+}
+.gridMobile {
+  display: none;
+  gap: 10px;
+  padding: 0px 10px;
+  margin: 0px auto;
+}
+.cars {
+  display: none;
+  margin-left: 20px;
 }
 @media (max-width: 750px) {
   .grid {
@@ -10,9 +21,16 @@
   }
 }
 @media (max-width: 650px) {
-  .grid {
+  .gridMobile {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2px;
+  }
+  .grid {
+    display: none;
+  }
+  .cars {
+    display: block;
   }
 }
 

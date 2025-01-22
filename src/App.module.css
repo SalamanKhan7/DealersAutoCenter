@@ -8,16 +8,9 @@
 .container {
   display: flex;
   flex-direction: column;
-
   background-color: #f0f0f0;
-  /* height: 100vh; */
 }
 
-/* @media (max-width: 650px) {
-  .container {
-    flex-direction: column-reverse;
-  }
-} */
 .SearchInventory {
   display: none;
 }
@@ -34,12 +27,17 @@
     background-color: blue;
   }
 }
-.containerBody {
+.containerBody,
+.containerBuy {
   display: flex;
   flex-direction: column;
 }
+
 @media (max-width: 650px) {
   .containerBody {
+    flex-direction: column-reverse;
+  }
+  .containerBuy {
     flex-direction: column-reverse;
   }
 }

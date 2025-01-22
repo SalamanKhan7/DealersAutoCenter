@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   max-width: 310px;
-  margin: 10px;
+  margin: 5px 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
@@ -46,7 +46,7 @@
   /* padding-right: 5px; */
 }
 .finalColor {
-  width: 30%;
+  width: 35%;
 }
 .intColor {
   color: #000;
@@ -84,7 +84,7 @@
   }
 }
 .titleMiles {
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: column;
 }
